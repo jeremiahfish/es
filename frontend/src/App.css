@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    all: unset;
+}
+
+.app-icon {
+    height: 34px;
+    width: 34px;
+    border-radius: 8px;
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQiIGhlaWdodD0iMjQiCnZpZXdCb3g9IjAgMCAyMjYgMjI2IgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDIyNnYtMjI2aDIyNnYyMjZ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTExMyw5LjQxNjY3Yy0zMS4yMDY4MywwIC01Ni41LDI1LjI5MzE3IC01Ni41LDU2LjVjMCw0MC4zNTk4MyA1Ni41LDEwMy41ODMzMyA1Ni41LDEwMy41ODMzM2MwLDAgNTYuNSwtNjMuMjIzNSA1Ni41LC0xMDMuNTgzMzNjMCwtMzEuMjA2ODMgLTI1LjI5MzE3LC01Ni41IC01Ni41LC01Ni41ek0xMTMsNDUuNzQwNzJjMTEuMTQ5MzMsMCAyMC4xNzU5NCw5LjAyNjYxIDIwLjE3NTk0LDIwLjE3NTk0YzAsMTEuMTM5OTIgLTkuMDM2MDMsMjAuMTc1OTQgLTIwLjE3NTk0LDIwLjE3NTk0Yy0xMS4xMzk5MiwwIC0yMC4xNzU5NCwtOS4wMjY2MSAtMjAuMTc1OTQsLTIwLjE3NTk0YzAsLTExLjE0OTMzIDkuMDI2NjEsLTIwLjE3NTk0IDIwLjE3NTk0LC0yMC4xNzU5NHpNNzAuNDQxMDgsMTQ1LjM1MTRjLTMwLjU5NDc1LDYuMjE1IC01MS42MDc3NSwxOC44OTQxIC01MS42MDc3NSwzMy41NjUyN2MwLDIwLjgwMTQyIDQyLjE1ODQyLDM3LjY2NjY3IDk0LjE2NjY3LDM3LjY2NjY3YzUyLjAwODI1LDAgOTQuMTY2NjcsLTE2Ljg2NTI1IDk0LjE2NjY3LC0zNy42NjY2N2MwLC0xNC42NzExNyAtMjEuMDEzLC0yNy4zNDA4NSAtNTEuNjA3NzUsLTMzLjU2NTI3Yy00LjI1NjMzLDYuMjI0NDIgLTguNDI1NDEsMTEuOTI5NzQgLTEyLjI2NzQxLDE2LjkyMDU3YzI1LjcyNjMzLDMuODk4NSA0MC45NTcwNiwxMi4wNDk4IDQ0LjU2MzY0LDE2LjYyNjNjLTQuODQ5NTgsNi4xNTg1IC0zMC42MzQ5MiwxOC44MzMzMyAtNzQuODM2NzUsMTguODMzMzNsLTAuMDE4MzksMC4wMzY3OGwtMC4wMTgzOSwtMC4wMTgzOWMtNDQuMjAxODMsMCAtNjkuOTc3NzUsLTEyLjY2NTQyIC03NC44MzY3NSwtMTguODMzMzNjMy42MDY1OCwtNC41ODU5MiAxOC44Mjc4OSwtMTIuNzU1NjEgNDQuNTYzNjQsLTE2LjY0NDY5Yy0zLjg0MiwtNS4wMDAyNSAtOC4wMTEwOCwtMTAuNzA1NTcgLTEyLjI2NzQxLC0xNi45MjA1N3oiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg=="), linear-gradient(to bottom, #186eaf 0%, #194da0 100%);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin: 0px 8px 0px -5px;
+    background-size: 62%, 100%;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+
+/* Google Map */
+
+.googlemap {
+    width: 100%;
+    height: 100vh;
+}
+
+img[src$="#people_marker"] {
+    border: 1px solid #aaa !important;
+    border-radius: 50%;
+    transform: scale(0.4);
+    box-shadow: rgba(255, 255, 255, 1) 0px 0px 0px 3px, rgba(0, 0, 0, 0.2) 0px 2px 5px 5px;
+
+}
+
+img[src$="#equipment_marker"] {
+    border: 4px solid #ddd !important;
+    border-radius: 50%;
+    transform: scale(0.25);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+img[src$="#vehicles_marker"] {
+    border: 4px solid transparent !important;
+    border-radius: 50%;
+
+
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 4px 14px;
+    background-color: #186eaf;
+
+}
+
+
+img[src$="#tags_marker"] {
+    transform: scale(1.0) rotateX(45deg) rotateZ(0deg) perspective(0px) translateX(50px) translateY(200px) translateZ(0px);
+}
+
+@keyframes ripplex {
+    0% {
+        box-shadow: 0px 0px 0px 30px rgba(0, 99, 177, 0.2);
+    }
+
+    20% {
+        box-shadow: 0px 0px 0px 30px rgba(0, 99, 177, 0.2);
+    }
+
+    90% {
+        box-shadow: 0px 0px 0px 40px rgba(0, 99, 177, 0.2);
+    }
+
+    100% {
+        box-shadow: 0px 0px 70px 30px rgba(0, 99, 177, 0.15);
+    }
+}
+
+
+
+@media only screen and (max-width: 750px) {
+
+    /* Drawer Style */
+    .MuiDrawer-root>.MuiPaper-root {
+        height: calc(50%);
+        overflow: visible;
+        background-color: #ffffffcc;
+        backdrop-filter: blur(10px);
+        border: 0px solid white;
+        border-radius: 16px 16px 0 0;
+        margin: 0px 0px;
+        box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.18);
+    }
+
+    .detailView .MuiDrawer-root {
+        width: 0px !important;
+
+    }
+
+    .boxMap {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .puller {
+        width: 30px;
+        height: 6px;
+        background-color: #e0e0e0;
+        border-radius: 3px;
+        position: absolute;
+        top: 14px;
+        left: calc(50% - 15px);
+        display: block;
+    }
+
+    .MuiAppBar-positionFixed,
+    .appBar {
+        background-color: #ffffffcc !important;
+        backdrop-filter: blur(5px) !important;
+
+    }
+
+    .mui-tabs {
+        border-bottom: 1px solid #ddd;
+        padding: 0px;
+        margin: 18px 10px 0px 10px;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+
+    /* Drawer Style */
+    .MuiDrawer-root {
+        height: calc(100% - 60px);
+        width: 420px;
+        top: 58px;
+        overflow: visible;
+        z-index: 0 !important;
+    }
+
+    .detailView .MuiDrawer-root {
+        width: 360px !important;
+
+    }
+
+    .MuiDrawer-root>.MuiPaper-root {
+        height: calc(100% - 60px);
+        width: 420px;
+        top: 60px;
+        overflow: visible;
+        background-color: #ffffffff;
+        backdrop-filter: none;
+        border: 0px solid white;
+        border-radius: 0px 0px 0 0;
+        margin: 0px 0px;
+        box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.18);
+        padding: 0px 0px;
+        z-index: 0 !important;
+    }
+
+    .puller {
+        display: none;
+    }
+
+    .boxMap {
+        position: fixed;
+        top: 0px;
+        left: 420px;
+        width: calc(100% - 400px);
+        height: 100vh;
+    }
+
+    .MuiAppBar-positionFixed,
+    .appBar {
+        background-color: #ffffffff;
+        backdrop-filter: none;
+        z-index: 1 !important;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+
+    }
+
+    .mui-tabs {
+        border-bottom: 1px solid #ddd;
+        padding: 7px 10px 0px 10px;
+        margin: 0px 0px 0px 0px;
+        background: #f9f9f9;
+    }
+}
+
+.MuiBox-root {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+
+/* Avatar Circle Style */
+
+.MuiAvatar-root {
+    background: #fff;
+    padding: 0;
+    height: 32px;
+    width: 32px;
+    border: 1px solid #ddd;
+}
+
+.MuiAvatar-root img {
+    height: 100%;
+    width: 100%;
+}
+
+.svgicon img {
+    height: 70%;
+    width: 70%;
+}
+
+
+
+
+
+.detailView {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    margin-top: 60px !important;
+    background: #f7f9fc00;
+}
+
+
+.detailView p {
+    margin: 0px 0px;
+    padding: 0px;
+    line-height: 1.7rem;
+
+}
+
+.detailView .MuiPaper-root {
+
+    box-shadow: rgb(50 50 93 / 2%) 0px 2px 5px -1px, rgb(0 0 0 / 5%) 0px 1px 3px -1px !important;
+}
+
+.detailView .subtitle {
+    color: #0063B1;
+    font-weight: 500;
+    font-size: 0.9rem;
+
+    line-height: 1.4rem;
+}
+
+
+
+
+.list-item {
+    border-bottom: 1px solid #ddd;
+
+}
+
+.list-item .MuiListItemText-primary {
+    line-height: 1.2;
+    margin-top: 7px;
+}
+
+.list-item .MuiListItemText-secondary {
+    line-height: 1.4;
+    margin-bottom: 6px;
+}
+
+.MuiToolbar-root {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.listViewToolbar {
+
+    height: 50px;
+    flex-shrink: 1;
+    line-height: 54px;
+    background: #fcfcfc;
+    padding: 0px 7px !important;
+    border-bottom: 1px solid #ddd;
+
+}
+
+
+/* Scroll Bars Style */
+
+::-webkit-scrollbar {
+    width: 14px;
+    height: 18px;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 6px;
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    background-color: rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 7px;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
