@@ -1,6 +1,12 @@
 # es
  
-## Forntend
+## Frontend
+
+* React
+* Axios
+* MUI
+* Charts.js
+* Google Maps API
 
 
 ## Backend
